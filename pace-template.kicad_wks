@@ -1,0 +1,18 @@
+(page_layout
+  (setup (textsize 1.5 1.5)(linewidth 0.15)(textlinewidth 0.15)
+  (left_margin 10)(right_margin 10)(top_margin 10)(bottom_margin 0))
+
+  (tbtext "%T"        (name text1:Text) (pos 0 8 lbcorner))
+  (tbtext "Rev: %R"   (name text2:Text) (pos 40 8 lbcorner))
+  (tbtext "Sheet: %P" (name text3:Text) (pos 50 8 lbcorner))
+  (tbtext "%D"        (name text4:Text) (pos 70 8 lbcorner))
+  (tbtext "%F"        (name text5:Text) (pos 90 8 lbcorner))
+  (tbtext %K          (name text6:Text) (pos 46 8))
+
+  (rect (name rect1:Rect) (start 10 -10 ltcorner) (end 18 5 ltcorner))
+  (rect (name rect2:Rect) (start 118 -10 ltcorner) (end 126 5 ltcorner))
+  (rect (name rect3:Rect) (start 226 -10 ltcorner) (end 234 5 ltcorner))
+  (rect (name rect3:Rect) (start 226 -10 ltcorner) (end 234 5 ltcorner))
+
+
+)
