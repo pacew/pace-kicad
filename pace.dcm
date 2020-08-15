@@ -1,5 +1,95 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0.1
+D Resistor
+K R res resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F100LT5E_C25334.pdf
+$ENDCMP
+#
+$CMP 1.5k
+D Resistor, small symbol
+K R resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
+$CMP 100k
+D Resistor, small symbol
+K R resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
+$CMP 100n
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf
+$ENDCMP
+#
+$CMP 10k
+D Resistor, small symbol
+K R resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
+$CMP 10n
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf
+$ENDCMP
+#
+$CMP 10u
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf
+$ENDCMP
+#
+$CMP 12pf
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0402CG120J500NT_C1547.pdf
+$ENDCMP
+#
+$CMP 16mhz
+D Four pin crystal, GND on pins 2 and 4, small symbol
+K quartz ceramic resonator oscillator
+F https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X322516MLB4SI_C13738.pdf
+$ENDCMP
+#
+$CMP 18k
+D Resistor, small symbol
+K R resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
+$CMP 1k
+D Resistor, small symbol
+K R resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
+$CMP 1u
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf
+$ENDCMP
+#
+$CMP 2.2k
+D Resistor, small symbol
+K R resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
+$CMP 220
+D Resistor, small symbol
+K R resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
+$CMP 330
+D Resistor, small symbol
+K R resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
 $CMP AMS1117-1.5
 D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
 K linear regulator ldo fixed positive
@@ -96,6 +186,24 @@ K REGULATOR LDO 5.0V
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
 $ENDCMP
 #
+$CMP LMV321
+D Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5
+K single opamp
+F https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-LMV321IDBVR_C7972.pdf
+$ENDCMP
+#
+$CMP MCP6001U
+D 1MHz, Low-Power Op Amp, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP6401UT-xOT
+D 1 MHz, 45 µA Op Amps, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/devicedoc/22229d.pdf
+$ENDCMP
+#
 $CMP NCP1117-1.5_SOT223
 D 1A Low drop-out regulator, Fixed Output 1.5V, SOT-223
 K REGULATOR LDO 1.5V
@@ -144,10 +252,68 @@ K REGULATOR LDO 5V
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
+$CMP OPA330xxDCK
+D 50μV V OS, 0.25μV/°C, 35μA CMOS OPERATIONAL AMPLIFIERS, Zerø-Drift Series, SC70
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa330.pdf
+$ENDCMP
+#
+$CMP OPA333xxDCK
+D Single 1.8V, microPower, CMOS Operational Amplifiers, Zero-Drift Series, SC-70-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa333.pdf
+$ENDCMP
+#
+$CMP OPA376xxDCK
+D Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa376.pdf
+$ENDCMP
+#
+$CMP PSM712
+D Bidirectional dual transient-voltage-suppression diode, center on pin 3
+K diode TVS thyrector
+F https://datasheet.lcsc.com/szlcsc/ProTek-Devices-PSM712-LF-T7_C32677.pdf
+$ENDCMP
+#
+$CMP SIT65HVD08
+F https://datasheet.lcsc.com/szlcsc/1912111437_SIT-SIT65HVD08DGK_C427442.pdf
+$ENDCMP
+#
+$CMP SS210
+D Schottky diode, small symbol
+K diode Schottky
+F https://datasheet.lcsc.com/szlcsc/1903041730_MDD-Jiangsu-Yutai-Elec-SS210_C14996.pdf
+$ENDCMP
+#
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP bead
+D Ferrite bead, small symbol
+K L ferrite bead inductor filter
+F https://datasheet.lcsc.com/szlcsc/Sunlord-GZ2012D101TF_C1015.pdf
+$ENDCMP
+#
 $CMP crossbar_jumper
 D Solder Jumper, 2-pole, open
 K solder jumper SPST
 F ~
+$ENDCMP
+#
+$CMP fuse
+D Fuse, small symbol
+K fuse
+F ~
+$ENDCMP
+#
+$CMP ledred
+D Light emitting diode, small symbol
+K LED diode light-emitting-diode
+F https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf
 $ENDCMP
 #
 #End Doc Library
