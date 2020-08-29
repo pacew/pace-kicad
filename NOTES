@@ -1,0 +1,43 @@
+from STRF board
+4 layer
+pcb thick 62.99213 mils (1.6mm)
+F.Cu In1.Cu In2.Cu B.Cu -> signal
+
+design rules
+prohibit overlapping courtyards
+min track width 7.874016  0.2mm
+min via dia 15.74803      0.4mm
+min via drill 11.81102    0.3mm
+
+min uvia dia 7.874016     0.2mm
+min uvia drill 3.937008   0.1mm
+
+min hole to hole 9.84252  0.25mm
+
+no net classes
+
+tracks & vias
+jlc: .127mm min wid and spacing; .09mm inner
+
+11.81102 mils  .3mm
+15.74803       .4mm
+19.68504       .5mm
+29.52756       .75mm
+39.37008       1mm
+
+vias
+jlc min dia .45mm 4 layer, 0.6mm 2 layer
+jlc min hole .2mm  
+min annular ring .13 x 2  so hole .4 + .26 : so dia 0.66mm hole .4mm
+                   dia   hole
+19.68504 12.71654   .5  .45mm
+23.62205 15.74803   .6  .4
+27.55906 15.74830   .7  .4
+
+solder mask clearance  2.007874   .051mm
+solder mask min width 9.84252     .25mm
+
+solder paste abs clearance 0        0
+solder paste relative clearance 0%  0
+
+jlc trace to board outline 0.2mm
