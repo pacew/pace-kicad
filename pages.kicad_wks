@@ -6,7 +6,7 @@
   (tbtext "Sheet: %P" (name text3:Text) (pos 50 8 lbcorner))
   (tbtext %D (name text4:Text) (pos 70 8 lbcorner))
   (tbtext %F (name text5:Text) (pos 90 8 lbcorner))
-  (tbtext %K (name text6:Text) (pos 65 8))
+  (tbtext %K (name text6:Text) (pos 75 8))
   (rect (name rect1:Rect) (start 10 0 ltcorner) (end 28 15 ltcorner))
   (rect (name rect2:Rect) (start 118 0 ltcorner) (end 136 15 ltcorner))
   (rect (name rect3:Rect) (start 226 0 ltcorner) (end 244 15 ltcorner))

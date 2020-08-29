@@ -1,0 +1,23 @@
+#! /bin/sh
+
+if [ $# != 1 ]
+then
+    echo "usage: newboard boardname"
+    exit 1
+fi
+
+from=/home/pace/pace-kicad
+bname=$1
+
+if [ -r $bname ]
+then
+    echo "$bname already exists"
+    exit 1
+fi
+
+mkdir $bname
+cp $from/jlc/fp-lib-table $bname/
+cp $from/jlc/sym-lib-table $bname/
+cp $from/jlc/jlc.pro $bname/$bname.pro
+cp $from/jlc/jlc.sch $bname/$bname.sch
+cp $from/jlc/jlc.kicad_pcb $bname/$bname.kicad_pcb
