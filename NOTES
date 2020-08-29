@@ -41,3 +41,27 @@ solder paste abs clearance 0        0
 solder paste relative clearance 0%  0
 
 jlc trace to board outline 0.2mm
+================================================================
+
+Important kicad schematic files
+.pro
+.sch
+*-cache.lib  symbols from the schematic
+*.rescue 
+
+board files
+.kicad_pcb
+.cpm component and footprint info shared between schematic and board
+
+symbol libraries
+*.lib
+*.dcm
+
+footprints
+*.pretty
+*.kicad_mod
+
+
+
+git advice and visual diff
+https://jnavila.github.io/plotkicadsch/

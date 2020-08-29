@@ -9,15 +9,32 @@ fi
 from=/home/pace/pace-kicad
 bname=$1
 
-if [ -r $bname ]
+if [ ! -r .git ]
 then
-    echo "$bname already exists"
+    echo "error: do git init first"
     exit 1
 fi
 
-mkdir $bname
-cp $from/jlc/fp-lib-table $bname/
-cp $from/jlc/sym-lib-table $bname/
-cp $from/jlc/jlc.pro $bname/$bname.pro
-cp $from/jlc/jlc.sch $bname/$bname.sch
-cp $from/jlc/jlc.kicad_pcb $bname/$bname.kicad_pcb
+if [ -r kicad ]
+then
+    echo "error: kicad subdirectory already exists"
+    exit 1
+fi
+
+
+mkdir kicad
+cp $from/jlc/fp-lib-table kicad/
+cp $from/jlc/sym-lib-table kicad/
+cp $from/jlc/jlc.pro kicad/$bname.pro
+cp $from/jlc/jlc.sch kicad/$bname.sch
+cp $from/jlc/jlc.kicad_pcb kicad/$bname.kicad_pcb
+
+cat $from/ignore >> .gitignore
+cat $from/.gitattributes >> .gitattributes
+
+git config filter.kicad_project.clean "sed 's/^update=.*/update=Date/'"
+git config filter.kicad_project.smudge cat
+
+git config filter.kicad_sch.clean "sed -E 's/(#PWR|FLG)[0-9]+/\1?/'"
+git config filter.kicad_sch.smudget cat
+
