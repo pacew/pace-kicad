@@ -84,6 +84,12 @@ K R resistor
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
 $ENDCMP
 #
+$CMP 3.3k
+D Resistor, small symbol
+K R resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
 $CMP 330
 D Resistor, small symbol
 K R resistor
@@ -129,7 +135,7 @@ $ENDCMP
 $CMP AO4407A
 D P-MOSFET transistor, drain/gate/source
 K transistor PMOS P-MOS P-MOSFET
-F ~
+F https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO4407A_Alpha-Omega-Semicon-AOS-AO4407A_C16072.html/?href=jlc-SMT
 $ENDCMP
 #
 $CMP AP1117-18
@@ -154,6 +160,12 @@ $CMP AP1117-50
 D 1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223
 K linear regulator ldo fixed positive obsolete
 F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP BSS138K
+D N-MOSFET transistor, gate/source/drain
+K transistor NMOS N-MOS N-MOSFET
+F https://lcsc.com/product-detail/Others_ON-Semicon-ON-BSS138K_C255592.html/?href=jlc-SMT
 $ENDCMP
 #
 $CMP LD1117S12TR_SOT223
@@ -268,6 +280,12 @@ $CMP OPA376xxDCK
 D Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5
 K single opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
+$ENDCMP
+#
+$CMP P6SMB6.8CA
+D Bidirectional transient-voltage-suppression diode
+K diode TVS thyrector
+F https://datasheet.lcsc.com/szlcsc/Brightking-Elec-TAIWAN-P6SMB6-8CA_C78395.pdf
 $ENDCMP
 #
 $CMP PSM712
