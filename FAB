@@ -1,0 +1,12 @@
+https://dubiouscreations.com/2019/10/21/using-kicad-with-jlcpcb-assembly-service/
+
+eeschema: Tools -> Generate Bill of Materials
+(any format - side effect is it generates an xml file used below)
+
+pcbnew: file -> fabrication outputs -> footprint position file
+  csv format, mm unit, single file for board
+
+plot gerbers, drill
+
+run jlc-kicad-tools
+
