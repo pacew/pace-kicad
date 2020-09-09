@@ -65,3 +65,10 @@ footprints
 
 git advice and visual diff
 https://jnavila.github.io/plotkicadsch/
+
+================================================================
+
+fab layers
+*.Cu
+[FB].Paste, SilkS, Mask,
+Edge.Cuts
