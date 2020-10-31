@@ -120,6 +120,17 @@ K REGULATOR LDO 5.0V
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
 $ENDCMP
 #
+$CMP CP2102
+D CP2102 USB to UART Bridge
+F https://lcsc.com/product-detail/USB_SILICON-LABS_CP2102-GMR_CP2102-GMR_C6568.html/?href=jlc-SMT
+$ENDCMP
+#
+$CMP ESP32-PICO-D4
+D RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48
+K RF Radio BT ESP ESP32 Espressif external antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
+$ENDCMP
+#
 $CMP LMV321
 D Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5
 K single opamp
@@ -225,6 +236,12 @@ $CMP SIT65HVD08
 F https://datasheet.lcsc.com/szlcsc/1912111437_SIT-SIT65HVD08DGK_C427442.pdf
 $ENDCMP
 #
+$CMP SRV05-4
+D ESD Protection Diodes with Low Clamping Voltage, SOT-23-6
+K ESD protection diodes
+F http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF
+$ENDCMP
+#
 $CMP SS210
 D Schottky diode, small symbol
 K diode Schottky
@@ -235,6 +252,12 @@ $CMP TestPoint
 D test point
 K test point tp
 F ~
+$ENDCMP
+#
+$CMP W25Q128JVSIQ
+D 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
+K flash memory SPI
+F https://lcsc.com/product-detail/FLASH_Winbond-Elec-W25Q128JVSIQTR_C97521.html/?href=jlc-SMT
 $ENDCMP
 #
 $CMP bead
