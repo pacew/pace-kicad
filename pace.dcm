@@ -103,9 +103,8 @@ F http://www.advanced-monolithic.com/pdf/ds1117.pdf
 $ENDCMP
 #
 $CMP AO4407A
-D 1A Low Dropout regulator, positive, 2.5V fixed output, SOT-223
-K linear regulator ldo fixed positive obsolete
-F http://www.diodes.com/datasheets/AP1117.pdf
+D pfet
+F https://jlcpcb.com/parts/componentSearch?searchTxt=ao4407
 $ENDCMP
 #
 $CMP AP1117-33
