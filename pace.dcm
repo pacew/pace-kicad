@@ -247,6 +247,12 @@ K diode Schottky
 F https://datasheet.lcsc.com/szlcsc/1903041730_MDD-Jiangsu-Yutai-Elec-SS210_C14996.pdf
 $ENDCMP
 #
+$CMP TPS63000
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10
+K Buck-Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps63000.pdf
+$ENDCMP
+#
 $CMP TestPoint
 D test point
 K test point tp
