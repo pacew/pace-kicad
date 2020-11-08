@@ -60,6 +60,11 @@ K quartz ceramic resonator oscillator
 F https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X322516MLB4SI_C13738.pdf
 $ENDCMP
 #
+$CMP 180k
+D Resistor 180k 0603
+F https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF1803T5E_C22827.html/?href=jlc-SMT
+$ENDCMP
+#
 $CMP 18k
 D Resistor, small symbol
 K R resistor
@@ -72,6 +77,11 @@ K R resistor
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
 $ENDCMP
 #
+$CMP 1meg
+D Resistor 1meg 0603
+F https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0603WAF1004T5E_C22935.html/?href=jlc-SMT
+$ENDCMP
+#
 $CMP 1u
 D Unpolarized capacitor, small symbol
 K capacitor cap
@@ -82,6 +92,18 @@ $CMP 2.2k
 D Resistor, small symbol
 K R resistor
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
+$CMP 2.2pF
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_2-2pF-2R2-0-25pF-50V_C1559.html/?href=jlc-SMT
+$ENDCMP
+#
+$CMP 2.2uH
+D Inductor
+K inductor
+F https://lcsc.com/product-detail/Power-Inductors_cjiang-Changjiang-Microelectronics-Tech-FNR3015S2R2MT_C167747.html/?href=jlc-SMT
 $ENDCMP
 #
 $CMP 220
@@ -247,6 +269,10 @@ K diode Schottky
 F https://datasheet.lcsc.com/szlcsc/1903041730_MDD-Jiangsu-Yutai-Elec-SS210_C14996.pdf
 $ENDCMP
 #
+$CMP TP4056
+F https://lcsc.com/product-detail/PMIC-Battery-Management_TP4056_C16581.html/?href=jlc-SMT
+$ENDCMP
+#
 $CMP TPS63000
 D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10
 K Buck-Boost adjustable converter
@@ -283,10 +309,22 @@ K fuse
 F ~
 $ENDCMP
 #
+$CMP ledgreen
+D Light emitting diode, small symbol
+K LED diode light-emitting-diode
+F https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Green-0805-Iv-207-249-mcd-atIF-20mA_C2297.html/?href=jlc-SMT
+$ENDCMP
+#
 $CMP ledred
 D Light emitting diode, small symbol
 K LED diode light-emitting-diode
 F https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf
+$ENDCMP
+#
+$CMP ledyellow
+D Light emitting diode, small symbol
+K LED diode light-emitting-diode
+F https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603-Yellow-light_C72038.html/?href=jlc-SMT
 $ENDCMP
 #
 #End Doc Library
