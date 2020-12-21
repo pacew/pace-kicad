@@ -6,6 +6,12 @@ K R res resistor
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F100LT5E_C25334.pdf
 $ENDCMP
 #
+$CMP 1.2k
+D Resistor, small symbol
+K R resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
 $CMP 1.5k
 D Resistor, small symbol
 K R resistor
@@ -46,6 +52,12 @@ $CMP 10u
 D Unpolarized capacitor, small symbol
 K capacitor cap
 F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf
+$ENDCMP
+#
+$CMP 10uH
+D Inductor
+K inductor
+F https://lcsc.com/product-detail/Inductors-SMD_Guangdong-Fenghua-Advanced-Tech-CMI321609X100KT_C1051.html/?href=jlc-SMT
 $ENDCMP
 #
 $CMP 12k
@@ -118,6 +130,12 @@ K R resistor
 F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
 $ENDCMP
 #
+$CMP 22k
+D Resistor, small symbol
+K R resistor
+F https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf
+$ENDCMP
+#
 $CMP 2N7002
 D N-MOSFET transistor, gate/source/drain
 K transistor NMOS N-MOS N-MOSFET
@@ -142,12 +160,26 @@ K capacitor cap
 F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf
 $ENDCMP
 #
-$CMP AO4407A
+$CMP ADM2483
+D RS422 isolater
+$ENDCMP
+#
+$CMP AO3400A
+D nfet 30v 5.7A Vgs 1.5v
+F https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3400A_Alpha-Omega-Semicon-AOS-AO3400A_C20917.html/?href=jlc-SMT
+$ENDCMP
+#
+$CMP AO4407
 D pfet
 F https://jlcpcb.com/parts/componentSearch?searchTxt=ao4407
 $ENDCMP
 #
-$CMP AO4407A_new
+$CMP AO4407A_new_copy
+D pfet
+F https://jlcpcb.com/parts/componentSearch?searchTxt=ao4407
+$ENDCMP
+#
+$CMP AO4407A_orig
 D pfet
 F https://jlcpcb.com/parts/componentSearch?searchTxt=ao4407
 $ENDCMP
@@ -159,8 +191,7 @@ F http://www.diodes.com/datasheets/AP1117.pdf
 $ENDCMP
 #
 $CMP BSS138K
-D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223
-K REGULATOR LDO 5.0V
+D nfet 50v 220ma Vgs 1.2v
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
 $ENDCMP
 #
@@ -169,10 +200,25 @@ D CP2102 USB to UART Bridge
 F https://lcsc.com/product-detail/USB_SILICON-LABS_CP2102-GMR_CP2102-GMR_C6568.html/?href=jlc-SMT
 $ENDCMP
 #
+$CMP EL357N(B)(TA)-G
+D DC Optocoupler
+F https://datasheet.lcsc.com/szlcsc/Everlight-Elec-EL357N-B-TA-G_C6649.pdf
+$ENDCMP
+#
 $CMP ESP32-PICO-D4
 D RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48
 K RF Radio BT ESP ESP32 Espressif external antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
+$ENDCMP
+#
+$CMP FP6292
+D DC-DC step up
+F https://lcsc.com/product-detail/DC-DC-Converters_FP6292iR-G1_C106191.html/?href=jlc-SMT
+$ENDCMP
+#
+$CMP L78M05ABDT
+D 5v 500mA linear regulator
+F https://lcsc.com/product-detail/Linear-Voltage-Regulators_STMicroelectronics_L78M05ABDT-TR_L78M05ABDT-TR_C58069.html/?href=jlc-SMT
 $ENDCMP
 #
 $CMP LBSS84LT1G
@@ -229,56 +275,8 @@ K diode TVS thyrector
 F https://datasheet.lcsc.com/szlcsc/ProTek-Devices-PSM712-LF-T7_C32677.pdf
 $ENDCMP
 #
-$CMP RJ31
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ32
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ33
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ34
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ35
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ41
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
 $CMP RJ45
 D RJ45 unshielded
-F ~
-$ENDCMP
-#
-$CMP RJ49
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ61
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
