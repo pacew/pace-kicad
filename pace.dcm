@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
 $CMP 0.1
 D Resistor
 K R res resistor
@@ -242,6 +247,18 @@ D CP2102 USB to UART Bridge
 F https://lcsc.com/product-detail/USB_SILICON-LABS_CP2102-GMR_CP2102-GMR_C6568.html/?href=jlc-SMT
 $ENDCMP
 #
+$CMP Conn_01x02_Male
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x07_Male
+D Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP EL357N(B)(TA)-G
 D DC Optocoupler
 F https://datasheet.lcsc.com/szlcsc/Everlight-Elec-EL357N-B-TA-G_C6649.pdf
@@ -256,6 +273,11 @@ $ENDCMP
 $CMP FP6292
 D DC-DC step up
 F https://lcsc.com/product-detail/DC-DC-Converters_FP6292iR-G1_C106191.html/?href=jlc-SMT
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
 $ENDCMP
 #
 $CMP L78M05ABDT
@@ -287,6 +309,12 @@ K REGULATOR LDO 5V
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
+$CMP MountingHole_Pad
+D Mounting Hole with connection
+K mounting hole
+F ~
+$ENDCMP
+#
 $CMP OPA330xxDCK
 D 50μV V OS, 0.25μV/°C, 35μA CMOS OPERATIONAL AMPLIFIERS, Zerø-Drift Series, SC70
 K single opamp
@@ -315,6 +343,12 @@ $CMP PSM712
 D Bidirectional dual transient-voltage-suppression diode, center on pin 3
 K diode TVS thyrector
 F https://datasheet.lcsc.com/szlcsc/ProTek-Devices-PSM712-LF-T7_C32677.pdf
+$ENDCMP
+#
+$CMP PWR_FLAG
+D Special symbol for telling ERC where power comes from
+K power-flag
+F ~
 $ENDCMP
 #
 $CMP RJ45
