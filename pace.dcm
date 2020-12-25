@@ -160,6 +160,42 @@ K capacitor cap
 F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf
 $ENDCMP
 #
+$CMP 4072
+D Dual 4 input OR gate
+K CMOS OR4
+F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf
+$ENDCMP
+#
+$CMP 555
+D Timer, DIP-8/SOIC-8/SSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lm555.pdf
+$ENDCMP
+#
+$CMP 74AHC1G04
+D Single NOT Gate, Low-Voltage CMOS
+K Single Gate NOT LVC CMOS
+F https://lcsc.com/product-detail/74-Series_TI_SN74AHC1G04DCKR_SN74AHC1G04DCKR_C7466.html/?href=jlc-SMT
+$ENDCMP
+#
+$CMP 74HC04
+D Hex Inverter
+K TTL not inv
+F http://www.ti.com/lit/gpn/sn74LS04
+$ENDCMP
+#
+$CMP 74HC164
+D 8-bit serial-in parallel-out shift register
+K 8-bit shift register
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf
+$ENDCMP
+#
+$CMP 74HCT164
+D 8-bit serial-in parallel-out shift register
+K 8-bit shift register
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf
+$ENDCMP
+#
 $CMP ADM2483
 D RS422 isolater
 $ENDCMP
@@ -193,6 +229,12 @@ $ENDCMP
 $CMP BSS138K
 D nfet 50v 220ma Vgs 1.2v
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP Barrel_Jack_Switch
+D DC Barrel Jack with an internal switch
+K DC power barrel jack connector
+F ~
 $ENDCMP
 #
 $CMP CP2102
@@ -302,6 +344,12 @@ K diode Schottky
 F https://datasheet.lcsc.com/szlcsc/1903041730_MDD-Jiangsu-Yutai-Elec-SS210_C14996.pdf
 $ENDCMP
 #
+$CMP SW_SPDT
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+F ~
+$ENDCMP
+#
 $CMP TP4056
 F https://lcsc.com/product-detail/PMIC-Battery-Management_TP4056_C16581.html/?href=jlc-SMT
 $ENDCMP
@@ -315,6 +363,18 @@ $ENDCMP
 $CMP TestPoint
 D test point
 K test point tp
+F ~
+$ENDCMP
+#
+$CMP USB_A
+D USB Type A connector
+K connector USB
+F https://www.digikey.com/en/products/detail/on-shore-technology-inc/USB-A1HSB6/2677751
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
 F ~
 $ENDCMP
 #
@@ -340,6 +400,11 @@ $CMP fuse
 D Fuse, small symbol
 K fuse
 F ~
+$ENDCMP
+#
+$CMP fuse-250mA
+D Resettable fuse
+F https://datasheet.lcsc.com/szlcsc/TECHFUSE-nSMD025_C70068.pdf
 $ENDCMP
 #
 $CMP jst_battery
