@@ -11,23 +11,23 @@ bname=$1
 
 if [ ! -r .git ]
 then
-    echo "error: do git init first"
-    exit 1
+    git init
 fi
 
-if [ -r kicad ]
+if [ -r ${bname} ]
 then
-    echo "error: kicad subdirectory already exists"
+    echo "error: kicad subdirectory ${bname} already exists"
     exit 1
 fi
 
 
-mkdir kicad
-cp $from/jlc/fp-lib-table kicad/
-cp $from/jlc/sym-lib-table kicad/
-cp $from/jlc/jlc.pro kicad/$bname.pro
-cp $from/jlc/jlc.sch kicad/$bname.sch
-cp $from/jlc/jlc.kicad_pcb kicad/$bname.kicad_pcb
+mkdir ${bname}
+cp $from/jlc/fp-lib-table ${bname}/
+cp $from/jlc/sym-lib-table ${bname}/
+cp $from/jlc/jlc.pro ${bname}/$bname.pro
+cp $from/jlc/jlc.sch ${bname}/$bname.sch
+cp $from/jlc/jlc.kicad_pcb ${bname}/$bname.kicad_pcb
+cp $from/Makefile.board ${bname}/Makefile
 
 cat $from/ignore >> .gitignore
 cat $from/.gitattributes >> .gitattributes
