@@ -27,7 +27,7 @@ cp $from/jlc/sym-lib-table ${bname}/
 cp $from/jlc/jlc.pro ${bname}/$bname.pro
 cp $from/jlc/jlc.sch ${bname}/$bname.sch
 cp $from/jlc/jlc.kicad_pcb ${bname}/$bname.kicad_pcb
-cp $from/Makefile.board ${bname}/Makefile
+(echo PROJ=${bname}; cat $from/Makefile.board) > ${bname}/Makefile
 
 cat $from/ignore >> .gitignore
 cat $from/.gitattributes >> .gitattributes

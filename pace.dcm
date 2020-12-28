@@ -5,6 +5,11 @@ D Power symbol creates a global label with name "+3.3V"
 K power-flag
 $ENDCMP
 #
+$CMP +5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
 $CMP 0.1
 D Resistor
 K R res resistor
@@ -249,6 +254,12 @@ $ENDCMP
 #
 $CMP Conn_01x02_Male
 D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x03_Male
+D Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
 $ENDCMP
