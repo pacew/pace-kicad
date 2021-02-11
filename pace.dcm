@@ -46,6 +46,12 @@ K capacitor cap
 F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf
 $ENDCMP
 #
+$CMP 100u
+D electrolytic 63v
+K cap capacitor
+F https://lcsc.com/product-detail/Others_Lelon-VE-101M1J1010-TRO_C249468.html/?href=jlc-SMT
+$ENDCMP
+#
 $CMP 10k
 D Resistor, small symbol
 K R resistor
