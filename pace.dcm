@@ -176,6 +176,12 @@ K capacitor cap
 F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf
 $ENDCMP
 #
+$CMP 4.7u_tantalum
+D tantalum 50v
+K cap capacitor
+F https://lcsc.com/product-detail/Others_Lelon-VE-101M1J1010-TRO_C249468.html/?href=jlc-SMT
+$ENDCMP
+#
 $CMP 4072
 D Dual 4 input OR gate
 K CMOS OR4
@@ -222,7 +228,7 @@ F https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3400A_Alpha-Omega
 $ENDCMP
 #
 $CMP AO4407
-D pfet
+D pfet used to be AO4407A now AO4407C
 F https://jlcpcb.com/parts/componentSearch?searchTxt=ao4407
 $ENDCMP
 #
@@ -318,6 +324,12 @@ $CMP LMV321
 D Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5
 K single opamp
 F https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-LMV321IDBVR_C7972.pdf
+$ENDCMP
+#
+$CMP M8-3
+D Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
 $ENDCMP
 #
 $CMP MCP6001U
