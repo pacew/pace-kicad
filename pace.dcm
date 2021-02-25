@@ -188,6 +188,18 @@ K CMOS OR4
 F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf
 $ENDCMP
 #
+$CMP 47k
+D 47k thermistor
+K thermistor NTC resistor sensor RTD
+F https://lcsc.com/product-detail/NTC-Thermistors_muRata_NCP18WB473J03RB_47KR-5_C86142.html/?href=jlc-SMT
+$ENDCMP
+#
+$CMP 47nH
+D Inductor
+K inductor
+F https://lcsc.com/product-detail/HF-Inductors_Sunlord-SDCL1608C47NJTDF_C29683.html/?href=jlc-SMT
+$ENDCMP
+#
 $CMP 555
 D Timer, DIP-8/SOIC-8/SSOP-8
 K single timer
@@ -242,10 +254,20 @@ D pfet
 F https://jlcpcb.com/parts/componentSearch?searchTxt=ao4407
 $ENDCMP
 #
+$CMP AOCJY1-10.000MHZ
+D Voltage-Controlled Crystal Clock Oscillator, DIP14-style metal package
+K Crystal Clock Oscillator
+F https://www.digikey.com/en/products/detail/abracon-llc/AOCJY1-10-000MHZ/2441421
+$ENDCMP
+#
 $CMP AP1117-33
 D 1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223
 K linear regulator ldo fixed positive obsolete
 F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP ATGM336H-5N
+F https://lcsc.com/product-detail/Communication-Modules-GNSS-Modules_ZHONGKEWEI-ATGM336H-5N31_C90770.html/?href=jlc-SMT
 $ENDCMP
 #
 $CMP BSS138K
@@ -288,6 +310,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP DRV8801PWP
+D H-Bridge Motor Driver, TSSOP-16
+K H-Bridge Motor Driver
+F http://www.ti.com/lit/ds/symlink/drv8801.pdf
+$ENDCMP
+#
 $CMP EL357N(B)(TA)-G
 D DC Optocoupler
 F https://datasheet.lcsc.com/szlcsc/Everlight-Elec-EL357N-B-TA-G_C6649.pdf
@@ -307,6 +335,18 @@ $ENDCMP
 $CMP GND
 D Power symbol creates a global label with name "GND" , ground
 K power-flag
+$ENDCMP
+#
+$CMP GTXO-14V
+D Voltage-Controlled Crystal Clock Oscillator, DIP14-style metal package
+K Crystal Clock Oscillator
+F http://www.golledge.com/pdf/products/tcxos/gtxo14.pdf
+$ENDCMP
+#
+$CMP GTXO-S14V
+D 3.3 & 5V Stratum 3 Sinewave TCXO, DIP14-style metal package
+K Crystal Clock Oscillator
+F http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf
 $ENDCMP
 #
 $CMP L78M05ABDT
@@ -413,6 +453,12 @@ K diode Schottky
 F https://datasheet.lcsc.com/szlcsc/1903041730_MDD-Jiangsu-Yutai-Elec-SS210_C14996.pdf
 $ENDCMP
 #
+$CMP STM32F103CBTx
+D ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
 $CMP SW_SPDT
 D Switch, single pole double throw
 K switch single-pole double-throw spdt ON-ON
@@ -445,6 +491,12 @@ $CMP USB_B_Micro
 D USB Micro Type B connector
 K connector USB micro
 F ~
+$ENDCMP
+#
+$CMP VTCXO-14
+D Voltage-Controlled Crystal Clock Oscillator, DIP14-style metal package
+K Crystal Clock Oscillator
+F http://www.golledge.com/pdf/products/tcxos/gtxos14.pdf
 $ENDCMP
 #
 $CMP W25Q128JVSIQ
