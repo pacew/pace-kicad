@@ -134,6 +134,12 @@ K capacitor cap
 F https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_2-2pF-2R2-0-25pF-50V_C1559.html/?href=jlc-SMT
 $ENDCMP
 #
+$CMP 2.2uF
+D 0603 cap 16v
+K capacitor cap
+F https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf
+$ENDCMP
+#
 $CMP 2.2uH
 D Inductor
 K inductor
@@ -547,6 +553,12 @@ F ~
 $ENDCMP
 #
 $CMP ledgreen
+D Light emitting diode, small symbol
+K LED diode light-emitting-diode
+F https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Green-0805-Iv-207-249-mcd-atIF-20mA_C2297.html/?href=jlc-SMT
+$ENDCMP
+#
+$CMP ledgreen_0805
 D Light emitting diode, small symbol
 K LED diode light-emitting-diode
 F https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Green-0805-Iv-207-249-mcd-atIF-20mA_C2297.html/?href=jlc-SMT
