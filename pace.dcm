@@ -218,6 +218,12 @@ K Single Gate NOT LVC CMOS
 F https://lcsc.com/product-detail/74-Series_TI_SN74AHC1G04DCKR_SN74AHC1G04DCKR_C7466.html/?href=jlc-SMT
 $ENDCMP
 #
+$CMP 74AHC1G04-newfp
+D Single NOT Gate, Low-Voltage CMOS
+K Single Gate NOT LVC CMOS
+F https://lcsc.com/product-detail/74-Series_TI_SN74AHC1G04DCKR_SN74AHC1G04DCKR_C7466.html/?href=jlc-SMT
+$ENDCMP
+#
 $CMP 74HC04
 D Hex Inverter
 K TTL not inv
@@ -448,6 +454,12 @@ F https://datasheet.lcsc.com/szlcsc/1912111437_SIT-SIT65HVD08DGK_C427442.pdf
 $ENDCMP
 #
 $CMP SRV05-4
+D ESD Protection Diodes with Low Clamping Voltage, SOT-23-6
+K ESD protection diodes
+F http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF
+$ENDCMP
+#
+$CMP SRV05-4-newfp
 D ESD Protection Diodes with Low Clamping Voltage, SOT-23-6
 K ESD protection diodes
 F http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF
